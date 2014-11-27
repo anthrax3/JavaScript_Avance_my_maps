@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "geocomplete": "ubilabs/geocomplete#~1.6.4",
+    "js-store-locator": "googlemaps/js-store-locator#gh-pages"
+  }
+}

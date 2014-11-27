@@ -1,0 +1,78 @@
+@import "compass";
+@import "compass/reset";
+
+a,
+a:focus,
+a:hover {
+	color: #fff;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: #333;
+}
+
+body {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#map-canvas {
+	width: 800px;
+	height: 600px;
+	margin: 25px auto;
+}
+
+.jumbotron {
+	background-color: #555;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	display: none;
+}
+
+#panel{
+	background: #eee;
+	@include border-radius(5px);
+}
+
+.spacer-right{
+	margin-right: 10px;
+}
+
+label[for=car], label[for=footing], label[for=bike]{
+	width: 25px;
+	height: 25px;
+	background-size: 25px;
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+
+label[for=car]{
+	background-image: url('../img/icone/car.png');
+}
+
+label[for=footing]{
+	background-image: url('../img/icone/footing.png');
+}
+
+label[for=bike]{
+	background-image: url('../img/icone/bike.png');
+}
+
+#map-canvas:-webkit-full-screen {
+	width: 100%;
+	height: 100%;
+}
+
+#map-canvas:-moz-full-screen {
+	width: 100%;
+	height: 100%;
+}
+
+a[href^="http://maps.google.com/maps"], .adp-placemark, .adp-summary, .gmnoprint a, .gmnoprint span, .adp-legal, .adp-marker, .adp-warnbox, .pac-container:after {
+    display:none !important
+}

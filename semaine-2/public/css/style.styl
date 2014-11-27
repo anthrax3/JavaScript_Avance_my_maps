@@ -1,0 +1,105 @@
+body
+	padding-top 65px;
+
+.upmap
+	z-index 2;
+	overflow visible;
+	position relative;
+
+.chat-container
+	position fixed;
+	right 2%;
+	bottom 2%;
+	height 520px;
+	width 25%;
+	padding 10px;
+
+.chat-messages-container
+	overflow-y scroll;
+	overflow-x hidden;
+	height 330px;
+
+.chat-messages-list
+	list-style-type none;
+	padding 0px;
+	margin 0px;
+	&:nth-child(even)
+		background: rgba(178,168,148,0.1);
+
+.chat-message
+	padding 5px;
+
+.chat-message p
+	margin 0px;
+	clear both;
+
+.message-date
+	float right;
+	padding 0px 5px 0px;
+	color #a2a2a2;
+
+.chat-messagebox-container
+	bottom 0;
+	height 150px;
+	margin-top 20px;
+
+.chat-messagebox-container textarea
+	height 70px;
+	max-height 70px;
+	overflow hidden;
+	-webkit-box-sizing border-box;
+	-moz-box-sizing border-box;
+	box-sizing border-box;
+	width 100%;
+
+.chat-header
+	height 24px;
+	font-size 16px;
+	font-weight bold;
+	padding-left 10px;
+	padding-bottom 30px;
+
+.sender
+	font-weight bold;
+
+#map_canvas
+	margin-bottom 20px;
+	height 100%;
+	width 100%;
+	top 60px;
+	left 0;
+	z-index 1;
+	position fixed !important;
+
+.logged
+	display none;
+
+#channelForm
+	margin-top 20px;
+
+.user-item
+	display block;
+
+.user-item a
+	padding 3px 5px;
+
+.user-item img.thumbnail
+	display inline-block;
+	vertical-align middle;
+	margin-bottom 0;
+
+.user-body
+	margin-left 10px;
+	display inline-block;
+	vertical-align middle;
+
+a[href^="http://maps.google.com/maps"],
+.adp-placemark,
+.adp-summary,
+.gmnoprint a,
+.gmnoprint span,
+.adp-legal,
+.adp-marker,
+.adp-warnbox,
+.pac-container:after
+	display none !important;

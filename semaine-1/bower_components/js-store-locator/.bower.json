@@ -1,0 +1,14 @@
+{
+  "name": "js-store-locator",
+  "homepage": "https://github.com/googlemaps/js-store-locator",
+  "_release": "2fb5929747",
+  "_resolution": {
+    "type": "branch",
+    "branch": "gh-pages",
+    "commit": "2fb5929747bd803562f6a7b8b053ac5a7f02cfea"
+  },
+  "_source": "git://github.com/googlemaps/js-store-locator.git",
+  "_target": "gh-pages",
+  "_originalSource": "googlemaps/js-store-locator",
+  "_direct": true
+}
